@@ -240,7 +240,7 @@ string reverse_string(in string str);
 
 
 
-//com
+//command
 
 idlj -fall ReverseModule.idl
 
@@ -249,6 +249,8 @@ javac *.java ReverseModule/*.java
 orbd -ORBInitialPort 1050&
 
 java ReverseServer -ORBInitialPort 1050& -ORBInitialHost localhost&
+
+
 
 
 
