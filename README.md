@@ -244,7 +244,7 @@ string reverse_string(in string str);
 
 idlj -fall ReverseModule.idl
 
-//javac *.java ReverseModule/*.java
+javac *.java ReverseModule/*.java
 
 orbd -ORBInitialPort 1050&
 
